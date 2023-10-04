@@ -16,7 +16,7 @@ Person(user, "Пользователь")
 
 System_Ext(web_site, "Клиентский веб-сайт", "HTML, CSS, JavaScript, React", "Веб-интерфейс")
 
-System_Boundary(conference_site, "Сайт блогов") {
+System_Boundary(conference_site, "Сайт услуг") {
    'Container(web_site, "Клиентский веб-сайт", ")
    Container(client_service, "Сервис авторизации", "C++", "Сервис управления пользователями", $tags = "microService")    
    Container(post_service, "Сервис услуг", "C++", "Сервис управления услугами", $tags = "microService") 
